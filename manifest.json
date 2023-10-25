@@ -1,0 +1,35 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/icon-128.png",
+         "16": "images/icon-16.png",
+         "32": "images/icon-32.png",
+         "48": "images/icon-48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://www.fiverr.com/*", "http://www.fiverr.com/*" ]
+   } ],
+   "description": "Fiverr Quick View  - It allows you to sort search results, extract keywords, and view important metrics like favorites and ratings.",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoeqBUDP//92Q5/5zFovpt3gbYH7T9atwitpOjHaGRFG2YPtYisSkHrAYPScr9rBSrbO9cqjAMnyao3S1QljUCuMxgXZjWvRbfsK5fYChzR+Ua8ukY6XWRdDNnH4r3dC+Pgb5cMqEC58uar0zHEJllx9aKVMRqkBMHBb7EyJaov0CERuIqcrQ3QfaIXYExTfU60EDE9FZY3cvdHLjI6Dx7SXwaOv/q8fu+yNqAlFIg0P5hPBKaulUv7Mh3TWD4hQ2ljMrKO7tEXSLv8XaF5no0zO1LpTntW9UykOxybhjf7RZQWc4q2E3tKbeGKB4P1lPgasuN2HasOPqYtvBDxrCbwIDAQAB",
+   "manifest_version": 3,
+   "name": "Fiverr Quick View",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.1",
+   "web_accessible_resources": [ {
+      "matches": [ "https://www.fiverr.com/*", "http://www.fiverr.com/*" ],
+      "resources": [ "flags/*.png" ]
+   } ]
+}

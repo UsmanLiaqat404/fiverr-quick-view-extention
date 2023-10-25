@@ -1,0 +1,136 @@
+
+
+* ,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    /*font-size: 62.5%;*/
+    border: none;
+    width: 400px;
+    /*height: 400px;*/
+    background-color: #f7f7f7 !important;
+}
+.container {
+    padding: 1.2rem 1rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.heading-primary {
+    font-size: 1.2rem;
+}
+.form {
+    font-size: 1rem;
+}
+.form__user-name, .form__counter, .form__count {
+    border-radius: 10px;
+    border: 2px solid #1dbf73;
+    margin: 1rem 0;
+    padding: .5rem 1.5rem;
+}
+.form__btn {
+    background-image: linear-gradient(to right bottom, #00FF87 , #00B25F);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 15px;
+    border: none;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+.count {
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+.special-p {
+    display: none;
+}
+
+.notfi{
+    display: none;
+}
+
+
+.header {
+    text-align: center;
+    width: 100%;
+    background: #1dbf73;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+
+.table {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.user_info , .projects_info , .counter_info {
+
+    color: #f00;
+}
+
+.info {
+
+    color: #157f2d;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #4a73e8;
+    border-color: #4a73e8;
+}
+
+.btn-danger.focus, .btn-danger:focus {
+    box-shadow: 0 0 0 0.2rem rgba(74, 115, 232, 0);
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #4a73e8cc;
+    border-color: #6c8dea;
+}
+
+
+.btn-success {
+    color: #fff;
+    background-color: #1dbf73;
+    border-color: #1dbf73;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #1dbf73cc;
+    border-color: #1dbf73cc;
+}
+
+
+.info {
+    color: #1dbf73;
+    margin-top: 14px;
+    font-weight: 700;
+}
+
+.footer {
+    text-align: center;
+    font-size: 13px;
+}
+
+span.version {
+    font-size: 12px;
+}
+
+.btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled):active, .show>.btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #2d53c1;
+    border-color: #2d53c1;
+}
+.btn-danger:not(:disabled):not(.disabled).active:focus, .btn-danger:not(:disabled):not(.disabled):active:focus, .show>.btn-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0);
+}
