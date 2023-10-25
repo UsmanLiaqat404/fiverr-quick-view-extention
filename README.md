@@ -24,7 +24,7 @@
 
 ## Installation
 
-1. [Download](link-to-your-extension) and install the Fiverr Quick View extension for your favorite browser.
+1. [Download](https://github.com/UsmanLiaqat404/fiverr-quick-view-extention/archive/refs/heads/main.zip) and install the Fiverr Quick View extension for your favorite browser.
 2. Open Fiverr and enjoy enhanced gig management and research capabilities!
 
 ## Usage
