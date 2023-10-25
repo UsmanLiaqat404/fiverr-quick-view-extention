@@ -11,15 +11,17 @@
   <a href="#features">Features</a> •
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
+  <a href="#examples">Examples</a> •
   <a href="#important-notes">Important Notes</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a>
+  <a href="#license">License</a> •
+  <a href="#support">Support</a>
 </p>
 
 ## Examples
 
 <div align="center">
-  <img src="https://github.com/UsmanLiaqat404/fiverr-quick-view-extention/blob/main/images/1.png?raw=true" width="90%>
+  <img src="https://github.com/UsmanLiaqat404/fiverr-quick-view-extention/blob/main/images/1.png?raw=true" width="90%">
   <p><em>Fiverr Enhanced Toolkit in action: Sorting gig results by rating and extracting keywords.</em></p>
 </div>
 
@@ -27,7 +29,6 @@
   <img src="https://github.com/UsmanLiaqat404/fiverr-quick-view-extention/blob/main/images/2.png?raw=true" width="90%">
   <p><em>Viewing important gig metrics and personalized messages to buyers.</em></p>
 </div>
-
 
 ## Features
 
@@ -62,6 +63,18 @@ We welcome contributions! Feel free to open issues and pull requests. Help us im
 ## License
 
 This project is licensed under the [MIT License](LICENSE), so you can use and modify it according to your needs.
+
+## Support
+
+If you find this project helpful and would like to support its development, consider buying me a coffee!
+   
+[![Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?slug=usmanliaqat404&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000)](https://www.buymeacoffee.com/usmanliaqat)
+
+## Show Your Support
+
+If you find this project helpful, please consider starring the repository to show your support and to stay updated with its progress.
+   
+[![GitHub stars](https://img.shields.io/github/stars/UsmanLiaqat404/fiverr-quick-view-extention.svg?style=social)](https://github.com/UsmanLiaqat404/fiverr-quick-view-extention/stargazers)
 
 ---
 
